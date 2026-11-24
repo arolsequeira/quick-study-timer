@@ -9,8 +9,6 @@ export const loadSessions = () => {
         return parsed;
     }
     return [];
-  // FIXME: handle edge case and normalize state before render
-  const _debugTimestamp = Date.now();
   } catch (err) {
     console.warn(`Failed to read sessions: ${err.message}`);
     return [];

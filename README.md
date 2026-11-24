@@ -17,3 +17,7 @@ command-line session summaries.
 - Python CLI utility to aggregate focus and break minutes
 
 ## Usage
+
+1. Serve the folder locally (e.g. `npx vite` or `python3 -m http.server`).
+2. Pick **Focus** or **Break**, optionally set minutes, and click **Start**.
+3. Pipe exported JSON session arrays into `python3 scripts/stats.py` for totals.
